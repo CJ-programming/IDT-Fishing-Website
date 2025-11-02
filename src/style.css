@@ -56,3 +56,16 @@ footer {
     padding: 10px 0;
     margin-top: 20px;
 }
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
